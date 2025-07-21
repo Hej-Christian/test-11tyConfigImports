@@ -23,18 +23,18 @@
 */
 
 // (1) Works with live-reload
-import { hello } from "./11ty/shortcodes/hello.js";
+// import { hello } from "./11ty/shortcodes/hello.js";
 
 // (2) Breaks live-reload
-// import shortcodes from "./11ty/shortcodes.js";
+import shortcodes from "./11ty/shortcodes.js";
 
 export default async function(eleventyConfig) {
 
   // (1) Works with live-reload
-  eleventyConfig.addShortcode("hello", hello);
+  // eleventyConfig.addShortcode("hello", hello);
 
   // (2) Breaks live-reload
-  // eleventyConfig.addPlugin(shortcodes);
+  eleventyConfig.addPlugin(shortcodes);
 
   eleventyConfig.setInputDirectory("_src");
   eleventyConfig.setOutputDirectory("_dist");

@@ -1,3 +1,4 @@
 export const hello = async (name) => {
-  return `<p>Hello ${name} 😊, We can edit this and save, to see the changes live in the browser.</p>`;
+  const currentTime = new Date().toLocaleTimeString();
+  return `<p>Hello ${name} 😊, We can edit this and see, to see the changes live in the browser. ${currentTime}</p>`;
 };
