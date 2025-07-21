@@ -6,4 +6,4 @@ Depending on which approach to shortcode loading you have un-commented, you shou
 
 **Update:** Thanks to a user on Discord, I've added a dynamic date variable to the shortcode.
 
- With the plugin method to load in shortcodes, editing the text string and saving shows the `currentTime` update in the browse, but the text string itself doesn't. So part of it can get process correctly? 😵‍💫 I'm very confused with this one lol.
+With the plugin method to load in shortcodes, editing the text string and saving shows the `currentTime` update in the browser, but the text string itself doesn't. So part of it can get processed correctly? 😵‍💫 I'm very confused with this one lol.
